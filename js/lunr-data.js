@@ -57,112 +57,36 @@ window.lunrData = {
           "list",
           "list:class"
         ],
-        "Client.html": [
-          "api",
-          "class",
-          "client",
-          "interact",
-          "repres"
-        ],
-        "Client.html#getPlayer": [
-          "client#getplay",
-          "function",
-          "get",
-          "getplay",
-          "player",
-          "promise.&lt;player&gt",
-          "tag"
-        ],
-        "Client.html#getBand": [
-          "band",
-          "client#getband",
-          "function",
-          "get",
-          "getband",
-          "promise.&lt;band&gt",
-          "tag"
-        ],
-        "Client.html#about": [
-          "api",
-          "client#about",
-          "function",
-          "info",
-          "promise.&lt;any&gt",
-          "return"
-        ],
-        "Client.html#getTopPlayers": [
-          "client#gettopplay",
-          "function",
-          "get",
-          "gettopplay",
-          "limit",
-          "player",
-          "promise.&lt;array.&lt;player&gt;&gt",
-          "top"
-        ],
-        "Client.html#getTopBands": [
-          "band",
-          "client#gettopband",
-          "function",
-          "gettopband",
-          "limit",
-          "promise.&lt;array.&lt;band&gt;&gt",
-          "return",
-          "top"
-        ],
-        "Client.html#getUpcomingEvents": [
-          "client#getupcomingev",
-          "event",
-          "function",
-          "get",
-          "getupcomingev",
-          "promise.&lt;any&gt",
-          "upcom"
-        ],
-        "Client.html#getCurrentEvents": [
-          "client#getcurrentev",
-          "current",
-          "event",
-          "function",
-          "get",
-          "getcurrentev",
-          "promise.&lt;any&gt"
-        ],
-        "Client.html#getEndpoints": [
-          "api",
-          "client#getendpoint",
-          "endpoint",
-          "function",
-          "get",
-          "getendpoint",
-          "list",
-          "promise.&lt;array.&lt;string&gt;&gt"
-        ],
-        "Band.html": [
+        "Club.html": [
           "api'",
           "band",
           "bodi",
           "class",
+          "club",
           "document",
+          "exampl",
           "follow",
+          "found",
+          "here",
           "inspect",
           "json",
           "now",
           "print",
           "properti",
-          "repres"
+          "repres",
+          "respons"
         ],
-        "Band.html#client": [
+        "Club.html#client": [
           "band",
-          "band#client",
           "client",
+          "club#client",
           "member",
           "request",
           "us"
         ],
-        "Band.html#toJSON": [
+        "Club.html#toJSON": [
           "band",
-          "band#tojson",
+          "club#tojson",
           "function",
           "json",
           "json.stringifi",
@@ -174,14 +98,18 @@ window.lunrData = {
           "api'",
           "class",
           "document",
+          "exampl",
           "follow",
+          "found",
+          "here",
           "inspect",
           "json",
           "now",
           "player",
           "print",
           "properti",
-          "repres"
+          "repres",
+          "respons"
         ],
         "Player.html#client": [
           "client",
@@ -200,19 +128,124 @@ window.lunrData = {
           "tojson",
           "us"
         ],
-        "Player.html#getBand": [
+        "Player.html#getClub": [
           "band",
+          "club",
           "function",
           "get",
-          "getband",
+          "getclub",
           "null",
-          "player#getband",
+          "player#getclub",
           "player'",
           "promise.&lt;?band&gt",
           "return"
+        ],
+        "Client.html": [
+          "api",
+          "class",
+          "client",
+          "interact",
+          "repres"
+        ],
+        "Client.html#getEndpoints": [
+          "api",
+          "client#getendpoint",
+          "endpoint",
+          "function",
+          "get",
+          "getendpoint",
+          "list",
+          "promise.&lt;array.&lt;string&gt;&gt"
+        ],
+        "Client.html#clubSearch": [
+          "array.&lt;club&gt",
+          "client#clubsearch",
+          "club",
+          "clubsearch",
+          "function",
+          "queri",
+          "search"
+        ],
+        "Client.html#getMisc": [
+          "client#getmisc",
+          "data",
+          "function",
+          "get",
+          "getmisc",
+          "misc",
+          "promise.&lt;any&gt",
+          "reset",
+          "season",
+          "shop",
+          "such",
+          "time"
+        ],
+        "Client.html#getCurrentEvents": [
+          "client#getcurrentev",
+          "current",
+          "event",
+          "function",
+          "get",
+          "getcurrentev",
+          "promise.&lt;any&gt"
+        ],
+        "Client.html#getTopClubs": [
+          "band",
+          "client#gettopclub",
+          "count",
+          "function",
+          "gettopclub",
+          "promise.&lt;array.&lt;band&gt;&gt",
+          "return",
+          "top"
+        ],
+        "Client.html#getTopPlayers": [
+          "client#gettopplay",
+          "function",
+          "get",
+          "gettopplay",
+          "option",
+          "player",
+          "promise.&lt;array.&lt;player&gt;&gt",
+          "top"
+        ],
+        "Client.html#about": [
+          "api",
+          "client#about",
+          "function",
+          "info",
+          "promise.&lt;any&gt",
+          "return"
+        ],
+        "Client.html#getClub": [
+          "client#getclub",
+          "club",
+          "function",
+          "get",
+          "getclub",
+          "promise.&lt;band&gt",
+          "tag"
+        ],
+        "Client.html#getPlayer": [
+          "client#getplay",
+          "function",
+          "get",
+          "getplay",
+          "player",
+          "promise.&lt;player&gt",
+          "tag"
+        ],
+        "Client.html#getUpcomingEvents": [
+          "client#getupcomingev",
+          "event",
+          "function",
+          "get",
+          "getupcomingev",
+          "promise.&lt;any&gt",
+          "upcom"
         ]
       },
-      "length": 19
+      "length": 21
     },
     "tokenStore": {
       "root": {
@@ -268,78 +301,25 @@ window.lunrData = {
               "docs": {},
               "d": {
                 "docs": {
-                  "Client.html#getBand": {
-                    "ref": "Client.html#getBand",
-                    "tf": 16.666666666666664
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 2.941176470588235
                   },
-                  "Client.html#getTopBands": {
-                    "ref": "Client.html#getTopBands",
-                    "tf": 16.666666666666664
-                  },
-                  "Band.html": {
-                    "ref": "Band.html",
-                    "tf": 1907.6923076923076
-                  },
-                  "Band.html#client": {
-                    "ref": "Band.html#client",
+                  "Club.html#client": {
+                    "ref": "Club.html#client",
                     "tf": 12.5
                   },
-                  "Band.html#toJSON": {
-                    "ref": "Band.html#toJSON",
+                  "Club.html#toJSON": {
+                    "ref": "Club.html#toJSON",
                     "tf": 10
                   },
-                  "Player.html#getBand": {
-                    "ref": "Player.html#getBand",
-                    "tf": 16.666666666666664
-                  }
-                },
-                "#": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "e": {
-                          "docs": {},
-                          "n": {
-                            "docs": {},
-                            "t": {
-                              "docs": {
-                                "Band.html#client": {
-                                  "ref": "Band.html#client",
-                                  "tf": 1150
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                  "Player.html#getClub": {
+                    "ref": "Player.html#getClub",
+                    "tf": 8.333333333333332
                   },
-                  "t": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "j": {
-                        "docs": {},
-                        "s": {
-                          "docs": {},
-                          "o": {
-                            "docs": {},
-                            "n": {
-                              "docs": {
-                                "Band.html#toJSON": {
-                                  "ref": "Band.html#toJSON",
-                                  "tf": 1150
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                  "Client.html#getTopClubs": {
+                    "ref": "Client.html#getTopClubs",
+                    "tf": 16.666666666666664
                   }
                 }
               }
@@ -351,9 +331,9 @@ window.lunrData = {
               "docs": {},
               "i": {
                 "docs": {
-                  "Band.html": {
-                    "ref": "Band.html",
-                    "tf": 3.8461538461538463
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 2.941176470588235
                   }
                 }
               }
@@ -373,6 +353,30 @@ window.lunrData = {
                     "index.html": {
                       "ref": "index.html",
                       "tf": 1300
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "Club.html": {
+                          "ref": "Club.html",
+                          "tf": 2.941176470588235
+                        },
+                        "Player.html": {
+                          "ref": "Player.html",
+                          "tf": 2.7777777777777777
+                        }
+                      }
                     }
                   }
                 }
@@ -411,30 +415,6 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "s": {
-              "docs": {},
-              "p": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "Band.html": {
-                          "ref": "Band.html",
-                          "tf": 3.8461538461538463
-                        },
-                        "Player.html": {
-                          "ref": "Player.html",
-                          "tf": 3.8461538461538463
-                        }
-                      }
-                    }
-                  }
-                }
-              }
             }
           }
         },
@@ -461,13 +441,13 @@ window.lunrData = {
             },
             "w": {
               "docs": {
-                "Band.html": {
-                  "ref": "Band.html",
-                  "tf": 3.8461538461538463
+                "Club.html": {
+                  "ref": "Club.html",
+                  "tf": 2.941176470588235
                 },
                 "Player.html": {
                   "ref": "Player.html",
-                  "tf": 3.8461538461538463
+                  "tf": 2.7777777777777777
                 }
               }
             }
@@ -478,8 +458,8 @@ window.lunrData = {
               "docs": {},
               "l": {
                 "docs": {
-                  "Player.html#getBand": {
-                    "ref": "Player.html#getBand",
+                  "Player.html#getClub": {
+                    "ref": "Player.html#getClub",
                     "tf": 8.333333333333332
                   }
                 }
@@ -513,17 +493,17 @@ window.lunrData = {
                   "docs": {},
                   "s": {
                     "docs": {
-                      "Client.html": {
-                        "ref": "Client.html",
-                        "tf": 12.5
-                      },
-                      "Band.html": {
-                        "ref": "Band.html",
-                        "tf": 3.8461538461538463
+                      "Club.html": {
+                        "ref": "Club.html",
+                        "tf": 2.941176470588235
                       },
                       "Player.html": {
                         "ref": "Player.html",
-                        "tf": 3.8461538461538463
+                        "tf": 2.7777777777777777
+                      },
+                      "Client.html": {
+                        "ref": "Client.html",
+                        "tf": 12.5
                       }
                     },
                     "e": {
@@ -532,8 +512,8 @@ window.lunrData = {
                         "docs": {},
                         "t": {
                           "docs": {
-                            "Band.html#toJSON": {
-                              "ref": "Band.html#toJSON",
+                            "Club.html#toJSON": {
+                              "ref": "Club.html#toJSON",
                               "tf": 10
                             },
                             "Player.html#toJSON": {
@@ -548,26 +528,36 @@ window.lunrData = {
                 }
               }
             },
-            "t": {
+            "s": {
               "docs": {},
-              "u": {
+              "p": {
                 "docs": {},
-                "r": {
+                "o": {
                   "docs": {},
                   "n": {
-                    "docs": {
-                      "Client.html#about": {
-                        "ref": "Client.html#about",
-                        "tf": 16.666666666666664
-                      },
-                      "Client.html#getTopBands": {
-                        "ref": "Client.html#getTopBands",
-                        "tf": 16.666666666666664
-                      },
-                      "Player.html#getBand": {
-                        "ref": "Player.html#getBand",
-                        "tf": 8.333333333333332
+                    "docs": {},
+                    "s": {
+                      "docs": {
+                        "Club.html": {
+                          "ref": "Club.html",
+                          "tf": 2.941176470588235
+                        },
+                        "Player.html": {
+                          "ref": "Player.html",
+                          "tf": 2.7777777777777777
+                        }
                       }
+                    }
+                  }
+                }
+              },
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Client.html#getMisc": {
+                      "ref": "Client.html#getMisc",
+                      "tf": 6.25
                     }
                   }
                 }
@@ -583,10 +573,35 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
-                        "Band.html#client": {
-                          "ref": "Band.html#client",
+                        "Club.html#client": {
+                          "ref": "Club.html#client",
                           "tf": 12.5
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Player.html#getClub": {
+                        "ref": "Player.html#getClub",
+                        "tf": 8.333333333333332
+                      },
+                      "Client.html#getTopClubs": {
+                        "ref": "Client.html#getTopClubs",
+                        "tf": 16.666666666666664
+                      },
+                      "Client.html#about": {
+                        "ref": "Client.html#about",
+                        "tf": 16.666666666666664
                       }
                     }
                   }
@@ -645,17 +660,31 @@ window.lunrData = {
                             "ref": "list_class.html",
                             "tf": 35
                           },
-                          "Band.html": {
-                            "ref": "Band.html",
-                            "tf": 3.8461538461538463
+                          "Club.html": {
+                            "ref": "Club.html",
+                            "tf": 2.941176470588235
                           },
                           "Player.html": {
                             "ref": "Player.html",
-                            "tf": 3.8461538461538463
+                            "tf": 2.7777777777777777
                           }
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {
+                  "Client.html#getMisc": {
+                    "ref": "Client.html#getMisc",
+                    "tf": 6.25
                   }
                 }
               }
@@ -688,153 +717,59 @@ window.lunrData = {
             "docs": {},
             "t": {
               "docs": {
-                "Client.html#getPlayer": {
-                  "ref": "Client.html#getPlayer",
-                  "tf": 16.666666666666664
+                "Player.html#getClub": {
+                  "ref": "Player.html#getClub",
+                  "tf": 8.333333333333332
                 },
-                "Client.html#getBand": {
-                  "ref": "Client.html#getBand",
+                "Client.html#getEndpoints": {
+                  "ref": "Client.html#getEndpoints",
+                  "tf": 12.5
+                },
+                "Client.html#getMisc": {
+                  "ref": "Client.html#getMisc",
+                  "tf": 6.25
+                },
+                "Client.html#getCurrentEvents": {
+                  "ref": "Client.html#getCurrentEvents",
                   "tf": 16.666666666666664
                 },
                 "Client.html#getTopPlayers": {
                   "ref": "Client.html#getTopPlayers",
                   "tf": 16.666666666666664
                 },
+                "Client.html#getClub": {
+                  "ref": "Client.html#getClub",
+                  "tf": 16.666666666666664
+                },
+                "Client.html#getPlayer": {
+                  "ref": "Client.html#getPlayer",
+                  "tf": 16.666666666666664
+                },
                 "Client.html#getUpcomingEvents": {
                   "ref": "Client.html#getUpcomingEvents",
                   "tf": 16.666666666666664
-                },
-                "Client.html#getCurrentEvents": {
-                  "ref": "Client.html#getCurrentEvents",
-                  "tf": 16.666666666666664
-                },
-                "Client.html#getEndpoints": {
-                  "ref": "Client.html#getEndpoints",
-                  "tf": 12.5
-                },
-                "Player.html#getBand": {
-                  "ref": "Player.html#getBand",
-                  "tf": 8.333333333333332
-                }
-              },
-              "p": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "y": {
-                      "docs": {
-                        "Client.html#getPlayer": {
-                          "ref": "Client.html#getPlayer",
-                          "tf": 683.3333333333334
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "b": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "Client.html#getBand": {
-                          "ref": "Client.html#getBand",
-                          "tf": 683.3333333333334
-                        },
-                        "Player.html#getBand": {
-                          "ref": "Player.html#getBand",
-                          "tf": 700
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "p": {
-                    "docs": {},
-                    "p": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "y": {
-                            "docs": {
-                              "Client.html#getTopPlayers": {
-                                "ref": "Client.html#getTopPlayers",
-                                "tf": 683.3333333333334
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "b": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "n": {
-                          "docs": {},
-                          "d": {
-                            "docs": {
-                              "Client.html#getTopBands": {
-                                "ref": "Client.html#getTopBands",
-                                "tf": 683.3333333333334
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "u": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "m": {
-                        "docs": {},
-                        "i": {
-                          "docs": {},
-                          "n": {
-                            "docs": {},
-                            "g": {
-                              "docs": {},
-                              "e": {
-                                "docs": {},
-                                "v": {
-                                  "docs": {
-                                    "Client.html#getUpcomingEvents": {
-                                      "ref": "Client.html#getUpcomingEvents",
-                                      "tf": 700
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
                 }
               },
               "c": {
                 "docs": {},
+                "l": {
+                  "docs": {},
+                  "u": {
+                    "docs": {},
+                    "b": {
+                      "docs": {
+                        "Player.html#getClub": {
+                          "ref": "Player.html#getClub",
+                          "tf": 700
+                        },
+                        "Client.html#getClub": {
+                          "ref": "Client.html#getClub",
+                          "tf": 683.3333333333334
+                        }
+                      }
+                    }
+                  }
+                },
                 "u": {
                   "docs": {},
                   "r": {
@@ -893,6 +828,118 @@ window.lunrData = {
                     }
                   }
                 }
+              },
+              "m": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "c": {
+                      "docs": {
+                        "Client.html#getMisc": {
+                          "ref": "Client.html#getMisc",
+                          "tf": 700
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "p": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "u": {
+                          "docs": {},
+                          "b": {
+                            "docs": {
+                              "Client.html#getTopClubs": {
+                                "ref": "Client.html#getTopClubs",
+                                "tf": 683.3333333333334
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "p": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "y": {
+                            "docs": {
+                              "Client.html#getTopPlayers": {
+                                "ref": "Client.html#getTopPlayers",
+                                "tf": 683.3333333333334
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "p": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "y": {
+                      "docs": {
+                        "Client.html#getPlayer": {
+                          "ref": "Client.html#getPlayer",
+                          "tf": 683.3333333333334
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "u": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "m": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "n": {
+                            "docs": {},
+                            "g": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "v": {
+                                  "docs": {
+                                    "Client.html#getUpcomingEvents": {
+                                      "ref": "Client.html#getUpcomingEvents",
+                                      "tf": 700
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }
@@ -911,17 +958,112 @@ window.lunrData = {
                       "ref": "list_class.html",
                       "tf": 635
                     },
-                    "Client.html": {
-                      "ref": "Client.html",
-                      "tf": 110
-                    },
-                    "Band.html": {
-                      "ref": "Band.html",
+                    "Club.html": {
+                      "ref": "Club.html",
                       "tf": 110
                     },
                     "Player.html": {
                       "ref": "Player.html",
                       "tf": 110
+                    },
+                    "Client.html": {
+                      "ref": "Client.html",
+                      "tf": 110
+                    }
+                  }
+                }
+              }
+            },
+            "u": {
+              "docs": {},
+              "b": {
+                "docs": {
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 1902.9411764705883
+                  },
+                  "Player.html#getClub": {
+                    "ref": "Player.html#getClub",
+                    "tf": 8.333333333333332
+                  },
+                  "Client.html#clubSearch": {
+                    "ref": "Client.html#clubSearch",
+                    "tf": 16.666666666666664
+                  },
+                  "Client.html#getClub": {
+                    "ref": "Client.html#getClub",
+                    "tf": 16.666666666666664
+                  }
+                },
+                "#": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "n": {
+                            "docs": {},
+                            "t": {
+                              "docs": {
+                                "Club.html#client": {
+                                  "ref": "Club.html#client",
+                                  "tf": 1150
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "t": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "j": {
+                        "docs": {},
+                        "s": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "n": {
+                              "docs": {
+                                "Club.html#toJSON": {
+                                  "ref": "Club.html#toJSON",
+                                  "tf": 1150
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "s": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "h": {
+                            "docs": {
+                              "Client.html#clubSearch": {
+                                "ref": "Client.html#clubSearch",
+                                "tf": 683.3333333333334
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -935,17 +1077,17 @@ window.lunrData = {
                   "docs": {},
                   "t": {
                     "docs": {
-                      "Client.html": {
-                        "ref": "Client.html",
-                        "tf": 1912.5
-                      },
-                      "Band.html#client": {
-                        "ref": "Band.html#client",
+                      "Club.html#client": {
+                        "ref": "Club.html#client",
                         "tf": 762.5
                       },
                       "Player.html#client": {
                         "ref": "Player.html#client",
                         "tf": 766.6666666666666
+                      },
+                      "Client.html": {
+                        "ref": "Client.html",
+                        "tf": 1912.5
                       }
                     },
                     "#": {
@@ -956,16 +1098,45 @@ window.lunrData = {
                           "docs": {},
                           "t": {
                             "docs": {},
-                            "p": {
+                            "e": {
                               "docs": {},
-                              "l": {
+                              "n": {
                                 "docs": {},
-                                "a": {
+                                "d": {
                                   "docs": {},
-                                  "y": {
+                                  "p": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "n": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {
+                                              "Client.html#getEndpoints": {
+                                                "ref": "Client.html#getEndpoints",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "m": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "s": {
+                                  "docs": {},
+                                  "c": {
                                     "docs": {
-                                      "Client.html#getPlayer": {
-                                        "ref": "Client.html#getPlayer",
+                                      "Client.html#getMisc": {
+                                        "ref": "Client.html#getMisc",
                                         "tf": 1150
                                       }
                                     }
@@ -973,16 +1144,45 @@ window.lunrData = {
                                 }
                               }
                             },
-                            "b": {
+                            "c": {
                               "docs": {},
-                              "a": {
+                              "u": {
                                 "docs": {},
-                                "n": {
+                                "r": {
                                   "docs": {},
-                                  "d": {
+                                  "r": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "v": {
+                                              "docs": {
+                                                "Client.html#getCurrentEvents": {
+                                                  "ref": "Client.html#getCurrentEvents",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "l": {
+                                "docs": {},
+                                "u": {
+                                  "docs": {},
+                                  "b": {
                                     "docs": {
-                                      "Client.html#getBand": {
-                                        "ref": "Client.html#getBand",
+                                      "Client.html#getClub": {
+                                        "ref": "Client.html#getClub",
                                         "tf": 1150
                                       }
                                     }
@@ -996,6 +1196,23 @@ window.lunrData = {
                                 "docs": {},
                                 "p": {
                                   "docs": {},
+                                  "c": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "b": {
+                                          "docs": {
+                                            "Client.html#getTopClubs": {
+                                              "ref": "Client.html#getTopClubs",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
                                   "p": {
                                     "docs": {},
                                     "l": {
@@ -1012,21 +1229,21 @@ window.lunrData = {
                                         }
                                       }
                                     }
-                                  },
-                                  "b": {
-                                    "docs": {},
-                                    "a": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {},
-                                        "d": {
-                                          "docs": {
-                                            "Client.html#getTopBands": {
-                                              "ref": "Client.html#getTopBands",
-                                              "tf": 1150
-                                            }
-                                          }
-                                        }
+                                  }
+                                }
+                              }
+                            },
+                            "p": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "a": {
+                                  "docs": {},
+                                  "y": {
+                                    "docs": {
+                                      "Client.html#getPlayer": {
+                                        "ref": "Client.html#getPlayer",
+                                        "tf": 1150
                                       }
                                     }
                                   }
@@ -1067,59 +1284,33 @@ window.lunrData = {
                                   }
                                 }
                               }
-                            },
-                            "c": {
+                            }
+                          }
+                        }
+                      },
+                      "c": {
+                        "docs": {},
+                        "l": {
+                          "docs": {},
+                          "u": {
+                            "docs": {},
+                            "b": {
                               "docs": {},
-                              "u": {
+                              "s": {
                                 "docs": {},
-                                "r": {
+                                "e": {
                                   "docs": {},
-                                  "r": {
+                                  "a": {
                                     "docs": {},
-                                    "e": {
+                                    "r": {
                                       "docs": {},
-                                      "n": {
+                                      "c": {
                                         "docs": {},
-                                        "t": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "v": {
-                                              "docs": {
-                                                "Client.html#getCurrentEvents": {
-                                                  "ref": "Client.html#getCurrentEvents",
-                                                  "tf": 1150
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "e": {
-                              "docs": {},
-                              "n": {
-                                "docs": {},
-                                "d": {
-                                  "docs": {},
-                                  "p": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "n": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {
-                                              "Client.html#getEndpoints": {
-                                                "ref": "Client.html#getEndpoints",
-                                                "tf": 1150
-                                              }
+                                        "h": {
+                                          "docs": {
+                                            "Client.html#clubSearch": {
+                                              "ref": "Client.html#clubSearch",
+                                              "tf": 1150
                                             }
                                           }
                                         }
@@ -1180,6 +1371,23 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Client.html#getTopClubs": {
+                      "ref": "Client.html#getTopClubs",
+                      "tf": 33.33333333333333
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "l": {
@@ -1223,24 +1431,6 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "m": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "Client.html#getTopPlayers": {
-                      "ref": "Client.html#getTopPlayers",
-                      "tf": 33.33333333333333
-                    },
-                    "Client.html#getTopBands": {
-                      "ref": "Client.html#getTopBands",
-                      "tf": 33.33333333333333
-                    }
-                  }
-                }
-              }
             }
           }
         },
@@ -1254,24 +1444,151 @@ window.lunrData = {
                   "ref": "Client.html",
                   "tf": 12.5
                 },
-                "Client.html#about": {
-                  "ref": "Client.html#about",
-                  "tf": 16.666666666666664
-                },
                 "Client.html#getEndpoints": {
                   "ref": "Client.html#getEndpoints",
                   "tf": 12.5
+                },
+                "Client.html#about": {
+                  "ref": "Client.html#about",
+                  "tf": 16.666666666666664
                 }
               },
               "'": {
                 "docs": {
-                  "Band.html": {
-                    "ref": "Band.html",
-                    "tf": 3.8461538461538463
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 2.941176470588235
                   },
                   "Player.html": {
                     "ref": "Player.html",
-                    "tf": 3.8461538461538463
+                    "tf": 2.7777777777777777
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "y": {
+                  "docs": {},
+                  ".": {
+                    "docs": {},
+                    "&": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          ";": {
+                            "docs": {},
+                            "c": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "u": {
+                                  "docs": {},
+                                  "b": {
+                                    "docs": {},
+                                    "&": {
+                                      "docs": {},
+                                      "g": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {
+                                            "Client.html#clubSearch": {
+                                              "ref": "Client.html#clubSearch",
+                                              "tf": 33.33333333333333
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          "x": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "l": {
+                    "docs": {
+                      "Club.html": {
+                        "ref": "Club.html",
+                        "tf": 2.941176470588235
+                      },
+                      "Player.html": {
+                        "ref": "Player.html",
+                        "tf": 2.7777777777777777
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "Client.html#getEndpoints": {
+                            "ref": "Client.html#getEndpoints",
+                            "tf": 12.5
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Client.html#getCurrentEvents": {
+                      "ref": "Client.html#getCurrentEvents",
+                      "tf": 16.666666666666664
+                    },
+                    "Client.html#getUpcomingEvents": {
+                      "ref": "Client.html#getUpcomingEvents",
+                      "tf": 16.666666666666664
+                    }
                   }
                 }
               }
@@ -1280,6 +1597,48 @@ window.lunrData = {
         },
         "f": {
           "docs": {},
+          "o": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "w": {
+                    "docs": {
+                      "Club.html": {
+                        "ref": "Club.html",
+                        "tf": 2.941176470588235
+                      },
+                      "Player.html": {
+                        "ref": "Player.html",
+                        "tf": 2.7777777777777777
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "Club.html": {
+                      "ref": "Club.html",
+                      "tf": 2.941176470588235
+                    },
+                    "Player.html": {
+                      "ref": "Player.html",
+                      "tf": 2.7777777777777777
+                    }
+                  }
+                }
+              }
+            }
+          },
           "u": {
             "docs": {},
             "n": {
@@ -1294,48 +1653,56 @@ window.lunrData = {
                       "docs": {},
                       "n": {
                         "docs": {
-                          "Client.html#getPlayer": {
-                            "ref": "Client.html#getPlayer",
-                            "tf": 110
-                          },
-                          "Client.html#getBand": {
-                            "ref": "Client.html#getBand",
-                            "tf": 110
-                          },
-                          "Client.html#about": {
-                            "ref": "Client.html#about",
-                            "tf": 110
-                          },
-                          "Client.html#getTopPlayers": {
-                            "ref": "Client.html#getTopPlayers",
-                            "tf": 110
-                          },
-                          "Client.html#getTopBands": {
-                            "ref": "Client.html#getTopBands",
-                            "tf": 110
-                          },
-                          "Client.html#getUpcomingEvents": {
-                            "ref": "Client.html#getUpcomingEvents",
-                            "tf": 110
-                          },
-                          "Client.html#getCurrentEvents": {
-                            "ref": "Client.html#getCurrentEvents",
-                            "tf": 110
-                          },
-                          "Client.html#getEndpoints": {
-                            "ref": "Client.html#getEndpoints",
-                            "tf": 110
-                          },
-                          "Band.html#toJSON": {
-                            "ref": "Band.html#toJSON",
+                          "Club.html#toJSON": {
+                            "ref": "Club.html#toJSON",
                             "tf": 110
                           },
                           "Player.html#toJSON": {
                             "ref": "Player.html#toJSON",
                             "tf": 110
                           },
-                          "Player.html#getBand": {
-                            "ref": "Player.html#getBand",
+                          "Player.html#getClub": {
+                            "ref": "Player.html#getClub",
+                            "tf": 110
+                          },
+                          "Client.html#getEndpoints": {
+                            "ref": "Client.html#getEndpoints",
+                            "tf": 110
+                          },
+                          "Client.html#clubSearch": {
+                            "ref": "Client.html#clubSearch",
+                            "tf": 110
+                          },
+                          "Client.html#getMisc": {
+                            "ref": "Client.html#getMisc",
+                            "tf": 110
+                          },
+                          "Client.html#getCurrentEvents": {
+                            "ref": "Client.html#getCurrentEvents",
+                            "tf": 110
+                          },
+                          "Client.html#getTopClubs": {
+                            "ref": "Client.html#getTopClubs",
+                            "tf": 110
+                          },
+                          "Client.html#getTopPlayers": {
+                            "ref": "Client.html#getTopPlayers",
+                            "tf": 110
+                          },
+                          "Client.html#about": {
+                            "ref": "Client.html#about",
+                            "tf": 110
+                          },
+                          "Client.html#getClub": {
+                            "ref": "Client.html#getClub",
+                            "tf": 110
+                          },
+                          "Client.html#getPlayer": {
+                            "ref": "Client.html#getPlayer",
+                            "tf": 110
+                          },
+                          "Client.html#getUpcomingEvents": {
+                            "ref": "Client.html#getUpcomingEvents",
                             "tf": 110
                           }
                         }
@@ -1345,24 +1712,89 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "o": {
+          }
+        },
+        "h": {
+          "docs": {},
+          "e": {
             "docs": {},
-            "l": {
+            "r": {
               "docs": {},
-              "l": {
-                "docs": {},
-                "o": {
+              "e": {
+                "docs": {
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 2.941176470588235
+                  },
+                  "Player.html": {
+                    "ref": "Player.html",
+                    "tf": 2.7777777777777777
+                  }
+                }
+              }
+            }
+          }
+        },
+        "j": {
+          "docs": {},
+          "s": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "n": {
+                "docs": {
+                  "Club.html": {
+                    "ref": "Club.html",
+                    "tf": 2.941176470588235
+                  },
+                  "Club.html#toJSON": {
+                    "ref": "Club.html#toJSON",
+                    "tf": 10
+                  },
+                  "Player.html": {
+                    "ref": "Player.html",
+                    "tf": 5.555555555555555
+                  },
+                  "Player.html#toJSON": {
+                    "ref": "Player.html#toJSON",
+                    "tf": 10
+                  }
+                },
+                ".": {
                   "docs": {},
-                  "w": {
-                    "docs": {
-                      "Band.html": {
-                        "ref": "Band.html",
-                        "tf": 3.8461538461538463
-                      },
-                      "Player.html": {
-                        "ref": "Player.html",
-                        "tf": 3.8461538461538463
+                  "s": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "n": {
+                            "docs": {},
+                            "g": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "f": {
+                                  "docs": {},
+                                  "i": {
+                                    "docs": {
+                                      "Club.html#toJSON": {
+                                        "ref": "Club.html#toJSON",
+                                        "tf": 10
+                                      },
+                                      "Player.html#toJSON": {
+                                        "ref": "Player.html#toJSON",
+                                        "tf": 10
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -1373,6 +1805,356 @@ window.lunrData = {
         },
         "p": {
           "docs": {},
+          "r": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Club.html": {
+                      "ref": "Club.html",
+                      "tf": 2.941176470588235
+                    },
+                    "Player.html": {
+                      "ref": "Player.html",
+                      "tf": 2.7777777777777777
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "Club.html": {
+                            "ref": "Club.html",
+                            "tf": 5.88235294117647
+                          },
+                          "Player.html": {
+                            "ref": "Player.html",
+                            "tf": 5.555555555555555
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "m": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      ".": {
+                        "docs": {},
+                        "&": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              ";": {
+                                "docs": {},
+                                "?": {
+                                  "docs": {},
+                                  "b": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "d": {
+                                          "docs": {},
+                                          "&": {
+                                            "docs": {},
+                                            "g": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {
+                                                  "Player.html#getClub": {
+                                                    "ref": "Player.html#getClub",
+                                                    "tf": 50
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "a": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "r": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "y": {
+                                          "docs": {},
+                                          ".": {
+                                            "docs": {},
+                                            "&": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  ";": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "i": {
+                                                            "docs": {},
+                                                            "n": {
+                                                              "docs": {},
+                                                              "g": {
+                                                                "docs": {},
+                                                                "&": {
+                                                                  "docs": {},
+                                                                  "g": {
+                                                                    "docs": {},
+                                                                    "t": {
+                                                                      "docs": {},
+                                                                      ";": {
+                                                                        "docs": {},
+                                                                        "&": {
+                                                                          "docs": {},
+                                                                          "g": {
+                                                                            "docs": {},
+                                                                            "t": {
+                                                                              "docs": {
+                                                                                "Client.html#getEndpoints": {
+                                                                                  "ref": "Client.html#getEndpoints",
+                                                                                  "tf": 50
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "b": {
+                                                      "docs": {},
+                                                      "a": {
+                                                        "docs": {},
+                                                        "n": {
+                                                          "docs": {},
+                                                          "d": {
+                                                            "docs": {},
+                                                            "&": {
+                                                              "docs": {},
+                                                              "g": {
+                                                                "docs": {},
+                                                                "t": {
+                                                                  "docs": {},
+                                                                  ";": {
+                                                                    "docs": {},
+                                                                    "&": {
+                                                                      "docs": {},
+                                                                      "g": {
+                                                                        "docs": {},
+                                                                        "t": {
+                                                                          "docs": {
+                                                                            "Client.html#getTopClubs": {
+                                                                              "ref": "Client.html#getTopClubs",
+                                                                              "tf": 33.33333333333333
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "p": {
+                                                      "docs": {},
+                                                      "l": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "y": {
+                                                            "docs": {},
+                                                            "e": {
+                                                              "docs": {},
+                                                              "r": {
+                                                                "docs": {},
+                                                                "&": {
+                                                                  "docs": {},
+                                                                  "g": {
+                                                                    "docs": {},
+                                                                    "t": {
+                                                                      "docs": {},
+                                                                      ";": {
+                                                                        "docs": {},
+                                                                        "&": {
+                                                                          "docs": {},
+                                                                          "g": {
+                                                                            "docs": {},
+                                                                            "t": {
+                                                                              "docs": {
+                                                                                "Client.html#getTopPlayers": {
+                                                                                  "ref": "Client.html#getTopPlayers",
+                                                                                  "tf": 33.33333333333333
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "n": {
+                                    "docs": {},
+                                    "y": {
+                                      "docs": {},
+                                      "&": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {
+                                              "Client.html#getMisc": {
+                                                "ref": "Client.html#getMisc",
+                                                "tf": 50
+                                              },
+                                              "Client.html#getCurrentEvents": {
+                                                "ref": "Client.html#getCurrentEvents",
+                                                "tf": 50
+                                              },
+                                              "Client.html#about": {
+                                                "ref": "Client.html#about",
+                                                "tf": 100
+                                              },
+                                              "Client.html#getUpcomingEvents": {
+                                                "ref": "Client.html#getUpcomingEvents",
+                                                "tf": 50
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "b": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {},
+                                      "d": {
+                                        "docs": {},
+                                        "&": {
+                                          "docs": {},
+                                          "g": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {
+                                                "Client.html#getClub": {
+                                                  "ref": "Client.html#getClub",
+                                                  "tf": 33.33333333333333
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "p": {
+                                  "docs": {},
+                                  "l": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {},
+                                      "y": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "r": {
+                                            "docs": {},
+                                            "&": {
+                                              "docs": {},
+                                              "g": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {
+                                                    "Client.html#getPlayer": {
+                                                      "ref": "Client.html#getPlayer",
+                                                      "tf": 33.33333333333333
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "l": {
             "docs": {},
             "a": {
@@ -1383,17 +2165,9 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
-                      "Client.html#getPlayer": {
-                        "ref": "Client.html#getPlayer",
-                        "tf": 16.666666666666664
-                      },
-                      "Client.html#getTopPlayers": {
-                        "ref": "Client.html#getTopPlayers",
-                        "tf": 16.666666666666664
-                      },
                       "Player.html": {
                         "ref": "Player.html",
-                        "tf": 1911.5384615384614
+                        "tf": 1908.3333333333333
                       },
                       "Player.html#client": {
                         "ref": "Player.html#client",
@@ -1402,6 +2176,14 @@ window.lunrData = {
                       "Player.html#toJSON": {
                         "ref": "Player.html#toJSON",
                         "tf": 10
+                      },
+                      "Client.html#getTopPlayers": {
+                        "ref": "Client.html#getTopPlayers",
+                        "tf": 16.666666666666664
+                      },
+                      "Client.html#getPlayer": {
+                        "ref": "Client.html#getPlayer",
+                        "tf": 16.666666666666664
                       }
                     },
                     "#": {
@@ -1449,16 +2231,16 @@ window.lunrData = {
                           "docs": {},
                           "t": {
                             "docs": {},
-                            "b": {
+                            "c": {
                               "docs": {},
-                              "a": {
+                              "l": {
                                 "docs": {},
-                                "n": {
+                                "u": {
                                   "docs": {},
-                                  "d": {
+                                  "b": {
                                     "docs": {
-                                      "Player.html#getBand": {
-                                        "ref": "Player.html#getBand",
+                                      "Player.html#getClub": {
+                                        "ref": "Player.html#getClub",
                                         "tf": 1150
                                       }
                                     }
@@ -1472,567 +2254,9 @@ window.lunrData = {
                     },
                     "'": {
                       "docs": {
-                        "Player.html#getBand": {
-                          "ref": "Player.html#getBand",
+                        "Player.html#getClub": {
+                          "ref": "Player.html#getClub",
                           "tf": 8.333333333333332
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      ".": {
-                        "docs": {},
-                        "&": {
-                          "docs": {},
-                          "l": {
-                            "docs": {},
-                            "t": {
-                              "docs": {},
-                              ";": {
-                                "docs": {},
-                                "p": {
-                                  "docs": {},
-                                  "l": {
-                                    "docs": {},
-                                    "a": {
-                                      "docs": {},
-                                      "y": {
-                                        "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "r": {
-                                            "docs": {},
-                                            "&": {
-                                              "docs": {},
-                                              "g": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {
-                                                    "Client.html#getPlayer": {
-                                                      "ref": "Client.html#getPlayer",
-                                                      "tf": 33.33333333333333
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "b": {
-                                  "docs": {},
-                                  "a": {
-                                    "docs": {},
-                                    "n": {
-                                      "docs": {},
-                                      "d": {
-                                        "docs": {},
-                                        "&": {
-                                          "docs": {},
-                                          "g": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {
-                                                "Client.html#getBand": {
-                                                  "ref": "Client.html#getBand",
-                                                  "tf": 33.33333333333333
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "a": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {},
-                                    "y": {
-                                      "docs": {},
-                                      "&": {
-                                        "docs": {},
-                                        "g": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {
-                                              "Client.html#about": {
-                                                "ref": "Client.html#about",
-                                                "tf": 100
-                                              },
-                                              "Client.html#getUpcomingEvents": {
-                                                "ref": "Client.html#getUpcomingEvents",
-                                                "tf": 50
-                                              },
-                                              "Client.html#getCurrentEvents": {
-                                                "ref": "Client.html#getCurrentEvents",
-                                                "tf": 50
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "r": {
-                                    "docs": {},
-                                    "r": {
-                                      "docs": {},
-                                      "a": {
-                                        "docs": {},
-                                        "y": {
-                                          "docs": {},
-                                          ".": {
-                                            "docs": {},
-                                            "&": {
-                                              "docs": {},
-                                              "l": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {},
-                                                  ";": {
-                                                    "docs": {},
-                                                    "p": {
-                                                      "docs": {},
-                                                      "l": {
-                                                        "docs": {},
-                                                        "a": {
-                                                          "docs": {},
-                                                          "y": {
-                                                            "docs": {},
-                                                            "e": {
-                                                              "docs": {},
-                                                              "r": {
-                                                                "docs": {},
-                                                                "&": {
-                                                                  "docs": {},
-                                                                  "g": {
-                                                                    "docs": {},
-                                                                    "t": {
-                                                                      "docs": {},
-                                                                      ";": {
-                                                                        "docs": {},
-                                                                        "&": {
-                                                                          "docs": {},
-                                                                          "g": {
-                                                                            "docs": {},
-                                                                            "t": {
-                                                                              "docs": {
-                                                                                "Client.html#getTopPlayers": {
-                                                                                  "ref": "Client.html#getTopPlayers",
-                                                                                  "tf": 33.33333333333333
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "b": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "n": {
-                                                          "docs": {},
-                                                          "d": {
-                                                            "docs": {},
-                                                            "&": {
-                                                              "docs": {},
-                                                              "g": {
-                                                                "docs": {},
-                                                                "t": {
-                                                                  "docs": {},
-                                                                  ";": {
-                                                                    "docs": {},
-                                                                    "&": {
-                                                                      "docs": {},
-                                                                      "g": {
-                                                                        "docs": {},
-                                                                        "t": {
-                                                                          "docs": {
-                                                                            "Client.html#getTopBands": {
-                                                                              "ref": "Client.html#getTopBands",
-                                                                              "tf": 33.33333333333333
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "s": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "i": {
-                                                            "docs": {},
-                                                            "n": {
-                                                              "docs": {},
-                                                              "g": {
-                                                                "docs": {},
-                                                                "&": {
-                                                                  "docs": {},
-                                                                  "g": {
-                                                                    "docs": {},
-                                                                    "t": {
-                                                                      "docs": {},
-                                                                      ";": {
-                                                                        "docs": {},
-                                                                        "&": {
-                                                                          "docs": {},
-                                                                          "g": {
-                                                                            "docs": {},
-                                                                            "t": {
-                                                                              "docs": {
-                                                                                "Client.html#getEndpoints": {
-                                                                                  "ref": "Client.html#getEndpoints",
-                                                                                  "tf": 50
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "?": {
-                                  "docs": {},
-                                  "b": {
-                                    "docs": {},
-                                    "a": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {},
-                                        "d": {
-                                          "docs": {},
-                                          "&": {
-                                            "docs": {},
-                                            "g": {
-                                              "docs": {},
-                                              "t": {
-                                                "docs": {
-                                                  "Player.html#getBand": {
-                                                    "ref": "Player.html#getBand",
-                                                    "tf": 50
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "p": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "t": {
-                      "docs": {},
-                      "i": {
-                        "docs": {
-                          "Band.html": {
-                            "ref": "Band.html",
-                            "tf": 7.6923076923076925
-                          },
-                          "Player.html": {
-                            "ref": "Player.html",
-                            "tf": 7.6923076923076925
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "Band.html": {
-                      "ref": "Band.html",
-                      "tf": 3.8461538461538463
-                    },
-                    "Player.html": {
-                      "ref": "Player.html",
-                      "tf": 3.8461538461538463
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "t": {
-          "docs": {},
-          "a": {
-            "docs": {},
-            "g": {
-              "docs": {
-                "Client.html#getPlayer": {
-                  "ref": "Client.html#getPlayer",
-                  "tf": 49.99999999999999
-                },
-                "Client.html#getBand": {
-                  "ref": "Client.html#getBand",
-                  "tf": 49.99999999999999
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "p": {
-              "docs": {
-                "Client.html#getTopPlayers": {
-                  "ref": "Client.html#getTopPlayers",
-                  "tf": 16.666666666666664
-                },
-                "Client.html#getTopBands": {
-                  "ref": "Client.html#getTopBands",
-                  "tf": 16.666666666666664
-                }
-              }
-            },
-            "j": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "Band.html#toJSON": {
-                        "ref": "Band.html#toJSON",
-                        "tf": 750
-                      },
-                      "Player.html#toJSON": {
-                        "ref": "Player.html#toJSON",
-                        "tf": 750
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "e": {
-          "docs": {},
-          "v": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "Client.html#getUpcomingEvents": {
-                      "ref": "Client.html#getUpcomingEvents",
-                      "tf": 16.666666666666664
-                    },
-                    "Client.html#getCurrentEvents": {
-                      "ref": "Client.html#getCurrentEvents",
-                      "tf": 16.666666666666664
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "p": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "n": {
-                      "docs": {},
-                      "t": {
-                        "docs": {
-                          "Client.html#getEndpoints": {
-                            "ref": "Client.html#getEndpoints",
-                            "tf": 12.5
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "u": {
-          "docs": {},
-          "p": {
-            "docs": {},
-            "c": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "m": {
-                  "docs": {
-                    "Client.html#getUpcomingEvents": {
-                      "ref": "Client.html#getUpcomingEvents",
-                      "tf": 16.666666666666664
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "s": {
-            "docs": {
-              "Band.html#client": {
-                "ref": "Band.html#client",
-                "tf": 12.5
-              },
-              "Band.html#toJSON": {
-                "ref": "Band.html#toJSON",
-                "tf": 10
-              },
-              "Player.html#client": {
-                "ref": "Player.html#client",
-                "tf": 16.666666666666664
-              },
-              "Player.html#toJSON": {
-                "ref": "Player.html#toJSON",
-                "tf": 10
-              }
-            }
-          }
-        },
-        "j": {
-          "docs": {},
-          "s": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "n": {
-                "docs": {
-                  "Band.html": {
-                    "ref": "Band.html",
-                    "tf": 3.8461538461538463
-                  },
-                  "Band.html#toJSON": {
-                    "ref": "Band.html#toJSON",
-                    "tf": 10
-                  },
-                  "Player.html": {
-                    "ref": "Player.html",
-                    "tf": 3.8461538461538463
-                  },
-                  "Player.html#toJSON": {
-                    "ref": "Player.html#toJSON",
-                    "tf": 10
-                  }
-                },
-                ".": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "t": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "i": {
-                          "docs": {},
-                          "n": {
-                            "docs": {},
-                            "g": {
-                              "docs": {},
-                              "i": {
-                                "docs": {},
-                                "f": {
-                                  "docs": {},
-                                  "i": {
-                                    "docs": {
-                                      "Band.html#toJSON": {
-                                        "ref": "Band.html#toJSON",
-                                        "tf": 10
-                                      },
-                                      "Player.html#toJSON": {
-                                        "ref": "Player.html#toJSON",
-                                        "tf": 10
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
                         }
                       }
                     }
@@ -2054,8 +2278,8 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
-                      "Band.html#client": {
-                        "ref": "Band.html#client",
+                      "Club.html#client": {
+                        "ref": "Club.html#client",
                         "tf": 110
                       },
                       "Player.html#client": {
@@ -2067,61 +2291,303 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "i": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "c": {
+                "docs": {
+                  "Client.html#getMisc": {
+                    "ref": "Client.html#getMisc",
+                    "tf": 6.25
+                  }
+                }
+              }
+            }
+          }
+        },
+        "u": {
+          "docs": {},
+          "s": {
+            "docs": {
+              "Club.html#client": {
+                "ref": "Club.html#client",
+                "tf": 12.5
+              },
+              "Club.html#toJSON": {
+                "ref": "Club.html#toJSON",
+                "tf": 10
+              },
+              "Player.html#client": {
+                "ref": "Player.html#client",
+                "tf": 16.666666666666664
+              },
+              "Player.html#toJSON": {
+                "ref": "Player.html#toJSON",
+                "tf": 10
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "m": {
+                  "docs": {
+                    "Client.html#getUpcomingEvents": {
+                      "ref": "Client.html#getUpcomingEvents",
+                      "tf": 16.666666666666664
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "o": {
+            "docs": {},
+            "j": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Club.html#toJSON": {
+                        "ref": "Club.html#toJSON",
+                        "tf": 750
+                      },
+                      "Player.html#toJSON": {
+                        "ref": "Player.html#toJSON",
+                        "tf": 750
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "p": {
+              "docs": {
+                "Client.html#getTopClubs": {
+                  "ref": "Client.html#getTopClubs",
+                  "tf": 16.666666666666664
+                },
+                "Client.html#getTopPlayers": {
+                  "ref": "Client.html#getTopPlayers",
+                  "tf": 16.666666666666664
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "Client.html#getMisc": {
+                    "ref": "Client.html#getMisc",
+                    "tf": 6.25
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "g": {
+              "docs": {
+                "Client.html#getClub": {
+                  "ref": "Client.html#getClub",
+                  "tf": 49.99999999999999
+                },
+                "Client.html#getPlayer": {
+                  "ref": "Client.html#getPlayer",
+                  "tf": 49.99999999999999
+                }
+              }
+            }
+          }
+        },
+        "q": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "Client.html#clubSearch": {
+                      "ref": "Client.html#clubSearch",
+                      "tf": 49.99999999999999
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "s": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "Client.html#clubSearch": {
+                        "ref": "Client.html#clubSearch",
+                        "tf": 16.666666666666664
+                      }
+                    }
+                  }
+                }
+              },
+              "s": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Client.html#getMisc": {
+                        "ref": "Client.html#getMisc",
+                        "tf": 6.25
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "h": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "p": {
+                "docs": {
+                  "Client.html#getMisc": {
+                    "ref": "Client.html#getMisc",
+                    "tf": 6.25
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "h": {
+                "docs": {
+                  "Client.html#getMisc": {
+                    "ref": "Client.html#getMisc",
+                    "tf": 6.25
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "p": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Client.html#getTopPlayers": {
+                        "ref": "Client.html#getTopPlayers",
+                        "tf": 33.33333333333333
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       },
-      "length": 134
+      "length": 163
     },
     "corpusTokens": [
       "api",
       "api'",
+      "array.&lt;club&gt",
       "band",
-      "band#client",
-      "band#tojson",
       "bodi",
       "brawlapi",
       "brawlstar",
       "class",
       "client",
       "client#about",
-      "client#getband",
+      "client#clubsearch",
+      "client#getclub",
       "client#getcurrentev",
       "client#getendpoint",
+      "client#getmisc",
       "client#getplay",
-      "client#gettopband",
+      "client#gettopclub",
       "client#gettopplay",
       "client#getupcomingev",
+      "club",
+      "club#client",
+      "club#tojson",
+      "clubsearch",
+      "count",
       "current",
+      "data",
       "document",
       "endpoint",
       "event",
+      "exampl",
       "follow",
+      "found",
       "function",
       "get",
-      "getband",
+      "getclub",
       "getcurrentev",
       "getendpoint",
+      "getmisc",
       "getplay",
-      "gettopband",
+      "gettopclub",
       "gettopplay",
       "getupcomingev",
       "global",
+      "here",
       "index",
       "info",
       "inspect",
       "interact",
       "json",
       "json.stringifi",
-      "limit",
       "list",
       "list:class",
       "member",
+      "misc",
       "node.j",
       "now",
       "null",
+      "option",
       "player",
       "player#cli",
-      "player#getband",
+      "player#getclub",
       "player#tojson",
       "player'",
       "print",
@@ -2133,12 +2599,20 @@ window.lunrData = {
       "promise.&lt;band&gt",
       "promise.&lt;player&gt",
       "properti",
+      "queri",
       "readm",
       "repres",
       "represent",
       "request",
+      "reset",
+      "respons",
       "return",
+      "search",
+      "season",
+      "shop",
+      "such",
       "tag",
+      "time",
       "tojson",
       "top",
       "upcom",
@@ -2185,125 +2659,34 @@ window.lunrData = {
       "description": "",
       "body": ""
     },
-    "Client.html": {
-      "id": "Client.html",
+    "Club.html": {
+      "id": "Club.html",
       "kind": "class",
-      "title": "Client",
-      "longname": "Client",
-      "name": "Client",
-      "tags": "Client",
+      "title": "Club",
+      "longname": "Club",
+      "name": "Club",
+      "tags": "Club",
       "summary": "",
-      "description": "Represents a client interacting with the API.",
+      "description": "Represents a Club. The properties are not documented for now but they follow the API's JSON body. print the Band to inspect the properties. An example response can be found here.",
       "body": ""
     },
-    "Client.html#getPlayer": {
-      "id": "Client.html#getPlayer",
-      "kind": "function",
-      "title": "getPlayer( tag ) → {Promise.&lt;Player&gt;}",
-      "longname": "Client#getPlayer",
-      "name": "getPlayer",
-      "tags": "Client#getPlayer getPlayer",
-      "summary": "",
-      "description": "Gets a player by tag."
-    },
-    "Client.html#getBand": {
-      "id": "Client.html#getBand",
-      "kind": "function",
-      "title": "getBand( tag ) → {Promise.&lt;Band&gt;}",
-      "longname": "Client#getBand",
-      "name": "getBand",
-      "tags": "Client#getBand getBand",
-      "summary": "",
-      "description": "Gets a band by tag."
-    },
-    "Client.html#about": {
-      "id": "Client.html#about",
-      "kind": "function",
-      "title": "about() → {Promise.&lt;any&gt;}",
-      "longname": "Client#about",
-      "name": "about",
-      "tags": "Client#about about",
-      "summary": "",
-      "description": "Returns some info about the API."
-    },
-    "Client.html#getTopPlayers": {
-      "id": "Client.html#getTopPlayers",
-      "kind": "function",
-      "title": "getTopPlayers( [ limit ] ) → {Promise.&lt;Array.&lt;Player&gt;&gt;}",
-      "longname": "Client#getTopPlayers",
-      "name": "getTopPlayers",
-      "tags": "Client#getTopPlayers getTopPlayers",
-      "summary": "",
-      "description": "Gets top players"
-    },
-    "Client.html#getTopBands": {
-      "id": "Client.html#getTopBands",
-      "kind": "function",
-      "title": "getTopBands( [ limit ] ) → {Promise.&lt;Array.&lt;Band&gt;&gt;}",
-      "longname": "Client#getTopBands",
-      "name": "getTopBands",
-      "tags": "Client#getTopBands getTopBands",
-      "summary": "",
-      "description": "Returns top bands."
-    },
-    "Client.html#getUpcomingEvents": {
-      "id": "Client.html#getUpcomingEvents",
-      "kind": "function",
-      "title": "getUpcomingEvents() → {Promise.&lt;any&gt;}",
-      "longname": "Client#getUpcomingEvents",
-      "name": "getUpcomingEvents",
-      "tags": "Client#getUpcomingEvents getUpcomingEvents",
-      "summary": "",
-      "description": "Gets upcoming events."
-    },
-    "Client.html#getCurrentEvents": {
-      "id": "Client.html#getCurrentEvents",
-      "kind": "function",
-      "title": "getCurrentEvents() → {Promise.&lt;any&gt;}",
-      "longname": "Client#getCurrentEvents",
-      "name": "getCurrentEvents",
-      "tags": "Client#getCurrentEvents getCurrentEvents",
-      "summary": "",
-      "description": "Gets the current events."
-    },
-    "Client.html#getEndpoints": {
-      "id": "Client.html#getEndpoints",
-      "kind": "function",
-      "title": "getEndpoints() → {Promise.&lt;Array.&lt;string&gt;&gt;}",
-      "longname": "Client#getEndpoints",
-      "name": "getEndpoints",
-      "tags": "Client#getEndpoints getEndpoints",
-      "summary": "",
-      "description": "Gets a list of all endpoints in the api"
-    },
-    "Band.html": {
-      "id": "Band.html",
-      "kind": "class",
-      "title": "Band",
-      "longname": "Band",
-      "name": "Band",
-      "tags": "Band",
-      "summary": "",
-      "description": "Represents a Band. The properties are not documented for now but they follow the API's JSON body. print the Band to inspect the properties.",
-      "body": ""
-    },
-    "Band.html#client": {
-      "id": "Band.html#client",
+    "Club.html#client": {
+      "id": "Club.html#client",
       "kind": "member",
       "title": "client :Client",
-      "longname": "Band#client",
+      "longname": "Club#client",
       "name": "client",
-      "tags": "Band#client client",
+      "tags": "Club#client client",
       "summary": "",
       "description": "The client used to request this band."
     },
-    "Band.html#toJSON": {
-      "id": "Band.html#toJSON",
+    "Club.html#toJSON": {
+      "id": "Club.html#toJSON",
       "kind": "function",
       "title": "toJSON()",
-      "longname": "Band#toJSON",
+      "longname": "Club#toJSON",
       "name": "toJSON",
-      "tags": "Band#toJSON toJSON",
+      "tags": "Club#toJSON toJSON",
       "summary": "",
       "description": "JSON Representation of this band. This is used by JSON.stringify()"
     },
@@ -2315,7 +2698,7 @@ window.lunrData = {
       "name": "Player",
       "tags": "Player",
       "summary": "",
-      "description": "Represents a player The player properties are not documented for now but they follow the API's JSON. print the player to inspect the properties.",
+      "description": "Represents a player The player properties are not documented for now but they follow the API's JSON. print the player to inspect the properties. An example JSON response can be found here.",
       "body": ""
     },
     "Player.html#client": {
@@ -2338,15 +2721,126 @@ window.lunrData = {
       "summary": "",
       "description": "JSON representation of the player. This is used by JSON.stringify()"
     },
-    "Player.html#getBand": {
-      "id": "Player.html#getBand",
+    "Player.html#getClub": {
+      "id": "Player.html#getClub",
       "kind": "function",
-      "title": "getBand() → {Promise.&lt;?Band&gt;}",
-      "longname": "Player#getBand",
-      "name": "getBand",
-      "tags": "Player#getBand getBand",
+      "title": "getClub() → {Promise.&lt;?Band&gt;}",
+      "longname": "Player#getClub",
+      "name": "getClub",
+      "tags": "Player#getClub getClub",
       "summary": "",
-      "description": "Gets the player's band if any, returns null if not in a band."
+      "description": "Gets the player's club if any, returns null if not in a band."
+    },
+    "Client.html": {
+      "id": "Client.html",
+      "kind": "class",
+      "title": "Client",
+      "longname": "Client",
+      "name": "Client",
+      "tags": "Client",
+      "summary": "",
+      "description": "Represents a client interacting with the API.",
+      "body": ""
+    },
+    "Client.html#getEndpoints": {
+      "id": "Client.html#getEndpoints",
+      "kind": "function",
+      "title": "getEndpoints() → {Promise.&lt;Array.&lt;string&gt;&gt;}",
+      "longname": "Client#getEndpoints",
+      "name": "getEndpoints",
+      "tags": "Client#getEndpoints getEndpoints",
+      "summary": "",
+      "description": "Gets a list of all endpoints in the api"
+    },
+    "Client.html#clubSearch": {
+      "id": "Client.html#clubSearch",
+      "kind": "function",
+      "title": "clubSearch( query ) → {Array.&lt;Club&gt;}",
+      "longname": "Client#clubSearch",
+      "name": "clubSearch",
+      "tags": "Client#clubSearch clubSearch",
+      "summary": "",
+      "description": "Searches clubs with a query."
+    },
+    "Client.html#getMisc": {
+      "id": "Client.html#getMisc",
+      "kind": "function",
+      "title": "getMisc() → {Promise.&lt;any&gt;}",
+      "longname": "Client#getMisc",
+      "name": "getMisc",
+      "tags": "Client#getMisc getMisc",
+      "summary": "",
+      "description": "Gets some misc data, such as season and shop reset time."
+    },
+    "Client.html#getCurrentEvents": {
+      "id": "Client.html#getCurrentEvents",
+      "kind": "function",
+      "title": "getCurrentEvents() → {Promise.&lt;any&gt;}",
+      "longname": "Client#getCurrentEvents",
+      "name": "getCurrentEvents",
+      "tags": "Client#getCurrentEvents getCurrentEvents",
+      "summary": "",
+      "description": "Gets the current events."
+    },
+    "Client.html#getTopClubs": {
+      "id": "Client.html#getTopClubs",
+      "kind": "function",
+      "title": "getTopClubs( [ count ] ) → {Promise.&lt;Array.&lt;Band&gt;&gt;}",
+      "longname": "Client#getTopClubs",
+      "name": "getTopClubs",
+      "tags": "Client#getTopClubs getTopClubs",
+      "summary": "",
+      "description": "Returns top bands."
+    },
+    "Client.html#getTopPlayers": {
+      "id": "Client.html#getTopPlayers",
+      "kind": "function",
+      "title": "getTopPlayers( [ options ] ) → {Promise.&lt;Array.&lt;Player&gt;&gt;}",
+      "longname": "Client#getTopPlayers",
+      "name": "getTopPlayers",
+      "tags": "Client#getTopPlayers getTopPlayers",
+      "summary": "",
+      "description": "Gets top players"
+    },
+    "Client.html#about": {
+      "id": "Client.html#about",
+      "kind": "function",
+      "title": "about() → {Promise.&lt;any&gt;}",
+      "longname": "Client#about",
+      "name": "about",
+      "tags": "Client#about about",
+      "summary": "",
+      "description": "Returns some info about the API."
+    },
+    "Client.html#getClub": {
+      "id": "Client.html#getClub",
+      "kind": "function",
+      "title": "getClub( tag ) → {Promise.&lt;Band&gt;}",
+      "longname": "Client#getClub",
+      "name": "getClub",
+      "tags": "Client#getClub getClub",
+      "summary": "",
+      "description": "Gets a club by tag."
+    },
+    "Client.html#getPlayer": {
+      "id": "Client.html#getPlayer",
+      "kind": "function",
+      "title": "getPlayer( tag ) → {Promise.&lt;Player&gt;}",
+      "longname": "Client#getPlayer",
+      "name": "getPlayer",
+      "tags": "Client#getPlayer getPlayer",
+      "summary": "",
+      "description": "Gets a player by tag."
+    },
+    "Client.html#getUpcomingEvents": {
+      "id": "Client.html#getUpcomingEvents",
+      "kind": "function",
+      "title": "getUpcomingEvents() → {Promise.&lt;any&gt;}",
+      "longname": "Client#getUpcomingEvents",
+      "name": "getUpcomingEvents",
+      "tags": "Client#getUpcomingEvents getUpcomingEvents",
+      "summary": "",
+      "description": "Gets upcoming events."
     }
   }
 };
