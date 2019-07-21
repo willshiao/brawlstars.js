@@ -73,6 +73,17 @@
           "promise.&lt;player&gt",
           "tag"
         ],
+        "Client.html#getBattleLog": [
+          "battl",
+          "client#getbattlelog",
+          "function",
+          "get",
+          "getbattlelog",
+          "log",
+          "player'",
+          "promise.&lt;any&gt",
+          "tag"
+        ],
         "Client.html#getClub": [
           "client#getclub",
           "club",
@@ -107,6 +118,7 @@
           "function",
           "gettopclub",
           "promise.&lt;array.&lt;band&gt;&gt",
+          "region",
           "return",
           "top"
         ],
@@ -245,7 +257,7 @@
           "us"
         ]
       },
-      "length": 21
+      "length": 22
     },
     "tokenStore": {
       "root": {
@@ -297,6 +309,20 @@
           },
           "a": {
             "docs": {},
+            "t": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "Client.html#getBattleLog": {
+                      "ref": "Client.html#getBattleLog",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            },
             "n": {
               "docs": {},
               "d": {
@@ -553,6 +579,23 @@
                 }
               }
             },
+            "g": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Client.html#getTopClubs": {
+                        "ref": "Client.html#getTopClubs",
+                        "tf": 25
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "s": {
               "docs": {},
               "e": {
@@ -721,6 +764,10 @@
                   "ref": "Client.html#getPlayer",
                   "tf": 16.666666666666664
                 },
+                "Client.html#getBattleLog": {
+                  "ref": "Client.html#getBattleLog",
+                  "tf": 10
+                },
                 "Client.html#getClub": {
                   "ref": "Client.html#getClub",
                   "tf": 16.666666666666664
@@ -761,6 +808,38 @@
                         "Client.html#getPlayer": {
                           "ref": "Client.html#getPlayer",
                           "tf": 683.3333333333334
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "b": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "g": {
+                                "docs": {
+                                  "Client.html#getBattleLog": {
+                                    "ref": "Client.html#getBattleLog",
+                                    "tf": 683.3333333333334
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     }
@@ -850,7 +929,7 @@
                             "docs": {
                               "Client.html#getTopClubs": {
                                 "ref": "Client.html#getTopClubs",
-                                "tf": 683.3333333333334
+                                "tf": 675
                               }
                             }
                           }
@@ -1014,6 +1093,38 @@
                                       "Client.html#getPlayer": {
                                         "ref": "Client.html#getPlayer",
                                         "tf": 1150
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "b": {
+                              "docs": {},
+                              "a": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {},
+                                            "g": {
+                                              "docs": {
+                                                "Client.html#getBattleLog": {
+                                                  "ref": "Client.html#getBattleLog",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
                                       }
                                     }
                                   }
@@ -1359,7 +1470,7 @@
                   "docs": {
                     "Client.html#getTopClubs": {
                       "ref": "Client.html#getTopClubs",
-                      "tf": 33.33333333333333
+                      "tf": 25
                     }
                   }
                 }
@@ -1429,6 +1540,17 @@
                       }
                     }
                   }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "g": {
+              "docs": {
+                "Client.html#getBattleLog": {
+                  "ref": "Client.html#getBattleLog",
+                  "tf": 10
                 }
               }
             }
@@ -1539,6 +1661,10 @@
                         "docs": {
                           "Client.html#getPlayer": {
                             "ref": "Client.html#getPlayer",
+                            "tf": 110
+                          },
+                          "Client.html#getBattleLog": {
+                            "ref": "Client.html#getBattleLog",
                             "tf": 110
                           },
                           "Client.html#getClub": {
@@ -1673,6 +1799,18 @@
                         "tf": 10
                       }
                     },
+                    "'": {
+                      "docs": {
+                        "Client.html#getBattleLog": {
+                          "ref": "Client.html#getBattleLog",
+                          "tf": 10
+                        },
+                        "Player.html#getClub": {
+                          "ref": "Player.html#getClub",
+                          "tf": 8.333333333333332
+                        }
+                      }
+                    },
                     "#": {
                       "docs": {},
                       "c": {
@@ -1738,14 +1876,6 @@
                           }
                         }
                       }
-                    },
-                    "'": {
-                      "docs": {
-                        "Player.html#getClub": {
-                          "ref": "Player.html#getClub",
-                          "tf": 8.333333333333332
-                        }
-                      }
                     }
                   }
                 }
@@ -1806,32 +1936,6 @@
                                     }
                                   }
                                 },
-                                "b": {
-                                  "docs": {},
-                                  "a": {
-                                    "docs": {},
-                                    "n": {
-                                      "docs": {},
-                                      "d": {
-                                        "docs": {},
-                                        "&": {
-                                          "docs": {},
-                                          "g": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {
-                                                "Client.html#getClub": {
-                                                  "ref": "Client.html#getClub",
-                                                  "tf": 33.33333333333333
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
                                 "a": {
                                   "docs": {},
                                   "n": {
@@ -1844,6 +1948,10 @@
                                           "docs": {},
                                           "t": {
                                             "docs": {
+                                              "Client.html#getBattleLog": {
+                                                "ref": "Client.html#getBattleLog",
+                                                "tf": 33.33333333333333
+                                              },
                                               "Client.html#about": {
                                                 "ref": "Client.html#about",
                                                 "tf": 100
@@ -1952,7 +2060,7 @@
                                                                           "docs": {
                                                                             "Client.html#getTopClubs": {
                                                                               "ref": "Client.html#getTopClubs",
-                                                                              "tf": 33.33333333333333
+                                                                              "tf": 25
                                                                             }
                                                                           }
                                                                         }
@@ -2011,6 +2119,32 @@
                                                       }
                                                     }
                                                   }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "b": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {},
+                                      "d": {
+                                        "docs": {},
+                                        "&": {
+                                          "docs": {},
+                                          "g": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {
+                                                "Client.html#getClub": {
+                                                  "ref": "Client.html#getClub",
+                                                  "tf": 33.33333333333333
                                                 }
                                               }
                                             }
@@ -2112,6 +2246,10 @@
                 "Client.html#getPlayer": {
                   "ref": "Client.html#getPlayer",
                   "tf": 49.99999999999999
+                },
+                "Client.html#getBattleLog": {
+                  "ref": "Client.html#getBattleLog",
+                  "tf": 43.33333333333333
                 },
                 "Client.html#getClub": {
                   "ref": "Client.html#getClub",
@@ -2524,13 +2662,14 @@
           }
         }
       },
-      "length": 163
+      "length": 173
     },
     "corpusTokens": [
       "api",
       "api'",
       "array.&lt;club&gt",
       "band",
+      "battl",
       "bodi",
       "brawlapi",
       "brawlstar",
@@ -2538,6 +2677,7 @@
       "client",
       "client#about",
       "client#clubsearch",
+      "client#getbattlelog",
       "client#getclub",
       "client#getcurrentev",
       "client#getendpoint",
@@ -2561,6 +2701,7 @@
       "found",
       "function",
       "get",
+      "getbattlelog",
       "getclub",
       "getcurrentev",
       "getendpoint",
@@ -2579,6 +2720,7 @@
       "json.stringifi",
       "list",
       "list:class",
+      "log",
       "member",
       "misc",
       "node.j",
@@ -2601,6 +2743,7 @@
       "properti",
       "queri",
       "readm",
+      "region",
       "repres",
       "represent",
       "request",
@@ -2680,6 +2823,16 @@
       "summary": "",
       "description": "Gets a player by tag."
     },
+    "Client.html#getBattleLog": {
+      "id": "Client.html#getBattleLog",
+      "kind": "function",
+      "title": "getBattleLog( tag ) → {Promise.&lt;any&gt;}",
+      "longname": "Client#getBattleLog",
+      "name": "getBattleLog",
+      "tags": "Client#getBattleLog getBattleLog",
+      "summary": "",
+      "description": "Gets a player's battle log by tag."
+    },
     "Client.html#getClub": {
       "id": "Client.html#getClub",
       "kind": "function",
@@ -2713,7 +2866,7 @@
     "Client.html#getTopClubs": {
       "id": "Client.html#getTopClubs",
       "kind": "function",
-      "title": "getTopClubs( [ count ] ) → {Promise.&lt;Array.&lt;Band&gt;&gt;}",
+      "title": "getTopClubs( [ count [, region ] ] ) → {Promise.&lt;Array.&lt;Band&gt;&gt;}",
       "longname": "Client#getTopClubs",
       "name": "getTopClubs",
       "tags": "Client#getTopClubs getTopClubs",
