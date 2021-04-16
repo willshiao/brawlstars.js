@@ -28,10 +28,39 @@ export interface PlayerBrawler {
   starPowers: StarPower[];
 }
 
+
 export interface PlayerBattlelog {
-  battle: string;
   battleTime: string;
+  battle: PlayerBattle;
   event: PlayerBattlelogEvent;
+}
+
+// Type returned by the API
+export interface PlayerBattlelogResponse {
+  items: PlayerBattlelog[]
+}
+
+export interface BattleBrawlerInfo {
+  id: number,
+  name: string,
+  power: number,
+  trophies: number
+}
+
+// Information about the player, as returned by the battlelog API
+export interface BattlePlayerInfo {
+  tag: string,
+  name: string,
+  brawler: BattleBrawlerInfo
+}
+
+export interface PlayerBattle {
+  mode: string,
+  type: string,
+  result: string,
+  duration: number,
+  starPlayer: BattlePlayerInfo,
+  teams: BattlePlayerInfo[][]
 }
 
 export interface PlayerBattlelogEvent {

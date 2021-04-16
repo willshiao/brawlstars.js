@@ -1,4 +1,4 @@
-import { Player, PlayerBattlelog, RankingsPlayer } from "./Player";
+import { Player, PlayerBattlelog, PlayerBattlelogResponse, RankingsPlayer } from "./Player";
 import { Brawler } from "./Brawler";
 import { Club, ClubMember, RankingsClub } from "./Club";
 import Cache, { Options } from "node-cache";
@@ -72,7 +72,10 @@ export class Client {
   }
 
   public getPlayerBattlelog(tag: string): Promise<PlayerBattlelog[]> {
-    return this._fetch<PlayerBattlelog[]>(`/players/%23${cleanTag(tag)}/battlelog`);
+    return this._fetch<PlayerBattlelogResponse>(`/players/%23${cleanTag(tag)}/battlelog`)
+      .then((res) => {
+        return res.items
+      });
   }
 
   public getClub(tag: string): Promise<Club> {
